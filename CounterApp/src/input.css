@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper{
+    @apply
+    bg-[#344151]
+    /* bg-amber-400 */
+    flex flex-col justify-center items-center
+    h-[100vh] w-[100vw];
+}
+.main-counter{
+    @apply
+    w-[500px] h-[150px]
+    bg-gray-300 
+    flex flex-row items-center;
+}
+.decrement{
+    @apply
+    cursor-pointer
+    text-5xl 
+    h-full w-[20%]
+    flex justify-center items-center
+    ;
+}
+.increment{
+    @apply
+    cursor-pointer
+    text-5xl
+    h-full w-[20%]
+    flex justify-center items-center
+    ;
+}
+.count{
+    @apply
+    text-6xl 
+    h-full w-[60%]
+    flex justify-center items-center;
+
+}
